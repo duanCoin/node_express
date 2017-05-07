@@ -1,0 +1,19 @@
+{
+  "name": "todo-list-first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node server.js --history-api-fallback",
+    "webpack": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "mongodb": "^2.2.5"
+  }
+}
